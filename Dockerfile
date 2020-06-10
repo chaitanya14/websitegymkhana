@@ -22,4 +22,4 @@ RUN npm install
 RUN npm run build --production
 
 FROM nginx:alpine
-COPY --from=node /app/dist/book-client /usr/share/nginx/html
+COPY --from=node /app/dist/websitegymkhana /usr/share/nginx/html
