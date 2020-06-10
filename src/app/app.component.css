@@ -1,0 +1,30 @@
+.navigation{
+    padding-top:30px;
+    padding-bottom:30px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1500;
+  }
+  
+  .navbar-right{
+    text-align:right;
+    padding-right:10%;
+  }
+  
+  .navbar-right a{
+    text-decoration:none;
+    padding:10px;
+    color: rgb(20, 20, 20);
+    font-family:Arial;
+    font-weight:900;
+  }
+  
+  .navbar-right a:hover{
+    text-decoration: underline overline rgb(15, 15, 15);;
+  }
+  .navbar-logo{
+    position: fixed;
+    top: 0;
+    height: 50px;
+  }

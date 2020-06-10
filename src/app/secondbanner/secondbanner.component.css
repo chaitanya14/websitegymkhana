@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  background-image: url(../../assets/images/practiceshot.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100%;
+  height: 80vh;
+}
+
+.title h2 {
+  position: relative;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+.title h2 {
+  position: relative;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+.historydesc {
+  max-width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.historydesc p {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: whitesmoke;
+  margin: 1em;
+  /* font-weight: 800; */
+}

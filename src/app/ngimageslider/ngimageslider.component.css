@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+p {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 80vh;
+  /* background-color: rgba(0, 0, 0, 1); */
+  /* background-image: linear-gradient(to bottom right, black, whitesmoke); */
+  /* background-image: url('../../assets/images/soccer.jpg');
+  background-attachment: fixed;
+  background-size: cover; */
+  /* background-attachment: fixed; */
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .title {
+  position: absolute;
+  z-index: 5000;
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  transform: translateY(-500%);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.title h2 {
+  font-weight: 900;
+}
+
+/* .title h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -18%;
+  /* text-align: center; */
+/* margin-left: 30%; */
+/* position: absolute;
+  z-index: 5000;
+  transform: translateX(250%);
+
+}  */
+
+.container video {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  object-fit: cover;
+  /* opacity: 0.8; */
+
+}
+
+.box {
+  width: 80%;
+  height: 500px;
+  margin-top: 5em;
+  position: absolute;
+  z-index: 5000;
+}
+
+/* .box imageSize {
+
+} */
+
+/* @media screen and (max-width: 375px) {
+  .box {
+    width: 100%;
+    height: 500px;
+    margin-top: 5em;
+    position: absolute;
+    z-index: 5000;
+  }
+
+  .container .title {
+    transform: translateY(-300%);
+  }
+} */
+
+
+
+@media screen and (max-width: 1680px) {
+
+  .container .title {
+    transform: translateY(-300%);
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+  .container .title {
+    transform: translateY(-750%);
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+
+  .container .title {
+    transform: translateY(-550%);
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  .container .title {
+    transform: translateY(-300%);
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .container .title {
+    transform: translateY(-250%);
+  }
+
+}
+
+
+.box ng-image-slider {
+  font-family: 'Orbitron', sans-serif;
+}

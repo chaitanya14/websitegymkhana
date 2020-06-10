@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+/* .main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  opacity: 0.8;
+} */
+
+/* .title { */
+/* width: 50%;
+  margin: 25em auto;
+  padding: 1em 0 1em 0;
+	background-color: #1b1b1f;
+  text-align: center; */
+/* box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center; */
+/* margin: 25em auto; */
+/* }
+    @media screen and (max-width: 980px) {
+
+      .title {
+        width: 75%;
+      }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+      .title {
+        width: 90%;
+      }
+
+    }
+      
+h1{
+  position: relative;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: "Cookie";
+  color: whitesmoke;
+  padding: 0;
+  z-index: 1;
+} */
+
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  object-fit: cover;
+  filter: brightness(170%);
+  /* filter: blur(3px); */
+  /* opacity: 0.8; */
+
+}
+
+.main::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+
+}
+
+.main .texture {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  background: url('../../assets/images/cross-stripes.png');
+}
+
+.main .title {
+  position: relative;
+  z-index: 20;
+  text-align: center;
+  /* color: #fff; */
+  color: #fff;
+
+}
+
+.main .title h1 {
+  text-transform: uppercase;
+  font-size: 4em;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1rem;
+}
+
+/* @media screen and (max-width: 980px) {
+
+  .title h1 {}
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .title {}
+
+} */
+
+@media screen and (max-width: 375px) {
+
+  .main .title h1 {
+    font-size: 2em;
+  }
+
+}
