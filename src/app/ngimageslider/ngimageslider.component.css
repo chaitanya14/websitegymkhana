@@ -99,7 +99,7 @@ p {
 @media screen and (max-width: 1680px) {
 
   .container .title {
-    transform: translateY(-300%);
+    transform: translateY(-500%);
   }
 
 }
