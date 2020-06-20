@@ -72,7 +72,7 @@ ul {
   position: absolute;
   top: 20px;
   right: 30px;
-  z-index: 2500;
+  z-index: 60000;
   display: none;
 }
 
@@ -92,7 +92,7 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    background: #f2f2f2;
+    /* background: #f2f2f2; */
     width: 50%;
     height: 100%;
     border-right: #ccc 1px solid;

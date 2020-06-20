@@ -18,7 +18,7 @@ import { CaraouselComponent } from './caraousel/caraousel.component';
 import { PlayersComponent } from './players/players.component';
 import { NgimagesliderComponent } from './ngimageslider/ngimageslider.component';
 import { NgImageSliderModule } from 'ng-image-slider';
-
+import { PlayerssliderComponent } from './playersslider/playersslider.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,8 @@ import { NgImageSliderModule } from 'ng-image-slider';
     NewnavComponent,
     CaraouselComponent,
     PlayersComponent,
-    NgimagesliderComponent
+    NgimagesliderComponent,
+    PlayerssliderComponent
   ],
   imports: [
     BrowserModule,

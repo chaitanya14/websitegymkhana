@@ -23,6 +23,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: rgba(0, 0, 0, 1); */
+  /* background-image: url('../../assets/images/asphalt-road-between-trees-1546901.jpg');
+  background-size: cover; */
 }
 
 .container .title {

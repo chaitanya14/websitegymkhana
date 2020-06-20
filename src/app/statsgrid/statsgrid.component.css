@@ -58,6 +58,10 @@
   background: url(../../assets/images/stadium.jpg);
 }
 
+/* .bg2 {
+  background: url(../../assets/images/craig.jpg);
+} */
+
 h2 {
   font-size: 45px;
   font-family: 'Orbitron', sans-serif;
@@ -87,3 +91,49 @@ p {
     background-color: black;
   }
 }
+
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .container>div {
+    background-position: 60% 40%;
+  }
+
+  h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  /* p {
+    font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: small;
+  } */
+
+  h2 span {
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+  }
+
+  p {
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+  }
+
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
